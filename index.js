@@ -5,9 +5,11 @@ const randomPuppy = require("random-puppy");
 
 
 
-const token = process.env.token;
+
 const { setCommands } = require("./commands/help.js")
 const { prefix } = require("./config.js");
+const { token } = require("./token.gitignore.js");
+
 
 const client = new Discord.Client();
 const commands = {};
@@ -149,4 +151,4 @@ client.on("guildMemberAdd", () => {
 
 
 
-client.login('ODc1NjkxOTU4MTQ2ODMwMzY2.YRZNsA.EiEi1pfqm0Vu57FTRBLVnUVZUR4');
+client.login(token);
