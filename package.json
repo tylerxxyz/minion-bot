@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "canvacord": "^5.2.3",
+    "canvas-senpai": "^2.0.3",
+    "discord-canvas": "^1.4.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.2.3",
+    "random-puppy": "^1.1.0"
+  }
+}
